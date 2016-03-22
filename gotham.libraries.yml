@@ -9,6 +9,7 @@ global-css:
       css/styles.css: {}
       css/queries.css: {}
       css/etline-font.css: {}
+      http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css: { type: external }
 global-js:
   js:
     js/vendor/modernizr-2.8.3-respond-1.4.2.min.js: {}
