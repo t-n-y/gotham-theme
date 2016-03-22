@@ -1,0 +1,5 @@
+<?php
+
+function gotham_preprocess_block(&$variables) {
+    $variables['logo'] = theme_get_setting('logo', 'gotham');
+}

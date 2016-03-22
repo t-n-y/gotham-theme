@@ -1,0 +1,12 @@
+name: Gotham
+type: theme
+description: 'Gotham is a carefully crafted landing page UI kit and landing page template built on Bootstrap 4, designed by Peter Finlan and developed by Taty Grassini.'
+core: 8.x
+libraries:
+  - gotham/global-css
+  - gotham/global-js
+regions:
+  header: Header
+  content: Main Content  # the content region is required
+  sidebar: Sidebar
+  footer: Footer

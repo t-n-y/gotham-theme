@@ -1,0 +1,21 @@
+global-css:
+  css:
+    theme:
+      css/normalize.min.css: {}
+      css/bootstrap.min.css: {}
+      css/normalize.min.css: {}
+      css/jquery.fancybox.css: {}
+      css/flexslider.css: {}
+      css/styles.css: {}
+      css/queries.css: {}
+      css/etline-font.css: {}
+global-js:
+  js:
+    js/vendor/modernizr-2.8.3-respond-1.4.2.min.js: {}
+    js/jquery.fancybox.pack.js: {}
+    js/vendor/bootstrap.min.js: {}
+    js/jquery.flexslider-min.js: {}
+    js/jquery.waypoints.min.js: {}
+    js/scripts.js: {}
+  dependencies:
+    - core/jquery

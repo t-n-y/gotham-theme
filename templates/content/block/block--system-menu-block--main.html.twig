@@ -1,0 +1,23 @@
+<section class="navigation">
+    <header>
+        <div class="header-content">
+            {% if logo %}
+                <div class="logo">
+                    <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+                      <img src="{{ logo.url }}" alt="{{ 'Home'|t }}" />
+                    </a>
+                </div>
+            {% endif %}
+            <div class="header-nav">
+                <nav>
+                    {% block content %}
+                        {{ content }}
+                    {% endblock %}
+                </nav>
+            </div>
+            <div class="navicon">
+                <a class="nav-toggle" href="#"><span></span></a>
+            </div>
+        </div>
+    </header>
+</section>
