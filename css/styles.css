@@ -666,6 +666,7 @@ Sign up form
 ========================================================================== */
 .sign-up .signup-form .sign-up-btn {
   padding: 15px 0;
+  margin: 10px 0;
   border-radius: 3px;
   width: 80%;
   font-size: 13px; }
@@ -722,6 +723,7 @@ Sign up form
   .sign-up .signup-form .form-input-group input:-ms-input-placeholder {
     color: #BCC1C3; }
 
+  textarea {border-radius: 6px; border: solid 1px #E6E9EA;}
 /* ==========================================================================
 To top
 ========================================================================== */
